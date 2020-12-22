@@ -1,0 +1,134 @@
+<!DOCTYPE html> <!--## 이 document의 type는 html이라고 declare하는 것-->
+
+<html lang="en" dir="ltr">
+
+<head> <!--## head tag는 webpage에 대한 정보를 담고 있고 browser에게 이 페이지를
+어떻게 다룰것인지 말해준다
+-->
+
+  <!--##meta tag는 블로그 https://aboooks.tistory.com/339 에 매우 잘 나와있음-->
+  <!--##w3schools에도 잘 나와있음-->
+  <!--All the text inside our webpage is encoded using the UTF-8 encoding characters-->
+  <meta charset="utf-8">
+
+
+  <!--## 웹페이지의 Chrome tab에 뜨는 제목-->
+  <title>My Personal Site</title>
+
+</head>
+
+
+
+<body>
+
+  <!--img tag는 웹사이트에 사진 올리는 tag다.
+  이렇게 내 directory에 있는 사진이어도 되고 온라인 링크로 올려도 된다.-->
+  <img src="images/fevernova.png" alt="Glenn Gould picture">
+  <img src="https://pds.joins.com/news/component/htmlphoto_mmdata/201103/02/htm_20110302001048a000a010-002.JPG" alt="Martha Argerich picture">
+
+
+  <table cellspacing="20">
+    <tr>
+      <td>
+        <img src="images/steinway.jpg" alt="Steinway & Sons Piano">
+      </td>
+      <td>
+        <h1>John Doe 홍길동</h1>
+        <p><em>I am this person</em></p>
+        <p>I am a this person specializing in <strong><a href="https://en.wikipedia.org/wiki/This">this</a></strong>.
+        I also like piano and learning this and that.</p>
+      </td>
+    </tr>
+  </table>
+
+
+
+
+  <hr> <!--## Horizontal line tag임. 밑줄 쫙 긋는 것임.-->
+
+  <h3>Education</h3>
+  <ul> <!-- Unordered List tag 임 -->
+    <li>PhD in this</li>
+    <li>Master of this</li>
+    <li>Bachelor of this</li>
+  </ul>
+
+  <hr>
+
+  <h3>Piano Repertoire</h3>
+  <ol> <!-- Ordered List tag임 -->
+    <li><strong>Chopin</strong> - <a href="https://www.youtube.com/watch?v=st737l3xl54">Ballade No.1</a>,
+      <a href="https://www.youtube.com/watch?v=9E82wwNc7r8">Etude Op.10 No.1</a>,
+      <a href="https://www.youtube.com/watch?v=fRqynzR_8Ts">Etude Op.25 No.1</a></li>
+    <li><strong>Bach</strong> - Italian Conerto</li>
+    <li><strong>Rachmaninoff</strong> - Preludes</li>
+  </ol>
+
+  <hr>
+
+  <h3>Work Experience</h3>
+  <table cellspacing="10">
+    <thead>
+      <tr>
+        <th>Dates</th>
+        <th>Work</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2011</td>
+        <td>Research Intern at here</td>
+      </tr>
+      <tr>
+        <td>2015</td>
+        <td>Assistant Intern at there</td>
+      </tr>
+      <tr>
+        <td>2017</td>
+        <td>Tutor at this place</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <hr>
+
+  <h3>Skills</h3>
+  <table cellspacing="10">
+    <tr>
+      <td>Python</td>
+      <td>🌝🌝🌝🌝🌜</td>
+    </tr>
+    <tr>
+      <td>HTML</td>
+      <td>🌝🌝</td>
+    </tr>
+    <tr>
+      <td>Data Structures</td>
+      <td>🌝🌝🌝🌝🌜   </td>
+    </tr>
+    <tr>
+      <td>Algorithms</td>
+      <td>🌝🌝🌝🌝</td>
+    </tr>
+    <tr>
+      <td>Computer Architecture</td>
+      <td>🌝</td>
+    </tr>
+    <tr>
+      <td>Operating Systems</td>
+      <td>🌝</td>
+    </tr>
+  </table>
+
+  <br>
+  <hr>
+
+  <!--Anchor tag는 인터넷에 다른 웹사이트에 링크 걸어도 되고
+  아니면 내 project folder에 있는 나의 다른 html파일에 링크걸어도 된다-->
+  <a href="football.html">My favourite football players</a>
+  <br>
+  <a href="contact.html">Contact</a>
+
+</body>
+
+</html>
